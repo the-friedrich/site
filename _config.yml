@@ -6,6 +6,6 @@ title: GitHub Pages Playground
 description: Zum ausprobieren der GitHub Pages und Jekyll
 show_downloads: true
 future: true
-
+encoding: UTF-8
 
 theme: jekyll-theme-minimal
