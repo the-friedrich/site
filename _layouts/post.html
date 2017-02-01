@@ -35,16 +35,15 @@
 
 
         <footer>
-          <nav>
-            <strong>Posts: </strong>
-            {% for post in site.posts %}
-              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> | 
-            {% endfor %}
-          </nav>
-
             {% if site.github.is_project_page %}
                 <p>By <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> of the rockers</p>
             {% endif %}
+            <nav>
+              <strong>Posts: </strong>
+              {% for post in site.posts %}
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> |
+              {% endfor %}
+            </nav>
         </footer>
     </div><!-- wrapper -->
 
