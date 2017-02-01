@@ -30,9 +30,11 @@
           <div class="to-home">
             <p><a href="{{ site.baseurl }}"><u>Home</u></a></p>
           </div>
+        {% if page.categories %}
          <div>
            <p><strong>Kategorie:</strong><br />{{ page.categories }}</p>
         </div>
+        {% endif %}
         </div>
 
       </header>
