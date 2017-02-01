@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Der Titel"
-category: this
+category: Sticks
 ---
 
 ![Placeholder](https://placeimg.com/640/480/any)
