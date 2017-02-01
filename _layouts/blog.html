@@ -17,40 +17,40 @@
     <div class="wrapper">
         <header>
             <h1>{{ page.title | default: site.github.repository_name }}</h1>
-            
+
             <p>{{ page.description | default: site.github.project_tagline }}</p>
 
-            {% if page.categories %}
+            {% if page.category %}
                 <div>
                     <p><strong>Kategorie:</strong><br />{{ page.categories }}</p>
                 </div>
             {% endif %}
 
-            <nav class="side-menu">                
+            <nav class="side-menu">
                 <p><strong>Posts:</strong></p>
                 {% for post in site.posts %}
                     <div class="index-entry">
                         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                    </div>                    
+                    </div>
                 {% endfor %}
 
                  <div class="to-home">
                     <p><a href="{{ site.baseurl }}"><u>Home</u></a></p>
-                 </div>        
+                 </div>
             </nav>
         </header>
-    
+
         <section>
             {{ content }}
         </section>
-        
+
         <footer>
             {% if site.github.is_project_page %}
                 <p>By <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> of the rockers</p>
             {% endif %}
-        </footer>    
+        </footer>
     </div><!-- wrapper -->
-    
+
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 </body>
 
