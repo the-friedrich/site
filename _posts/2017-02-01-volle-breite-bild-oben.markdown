@@ -3,8 +3,7 @@ layout: post
 title: "Volle Breite Bild oben"
 date: "2017-02-01 23:17:04 +0100"
 description: Eigenes Post-Layout zweiter Versuch
-category: Playground
-category: Dev
+category: [Playground, Dev]
 ---
 
 ![Placeholder](https://placeimg.com/860/480/any)
