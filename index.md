@@ -5,6 +5,9 @@ description: Look ma', it's my blog!
 excerpt_separator: <!--more-->
 ---
 
+![Placeholder](https://placeimg.com/640/480/any)
+*Caption*
+
 My Kung-Fu is better than yours
 ---
 
