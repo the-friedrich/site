@@ -1,4 +1,4 @@
-## Friedrichs Test Blog im GitHub Pages
+## Friedrichs Test Blog in GitHub Pages
 
 The Bees Knees!
 
