@@ -20,7 +20,7 @@
 
             <p>{{ page.description | default: site.github.project_tagline }}</p>
 
-            {% if page.category %}
+            {% if page.ategories != empty %}              
                 <div>
                     <p><strong>Kategorie:</strong><br />{{ page.categories }}</p>
                 </div>
