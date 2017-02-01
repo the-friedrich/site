@@ -1,6 +1,7 @@
 ## Friedrichs Test Blog in GitHub Pages
 
-Aktuelles Theme: jekyll-theme-minimal
+Aktuelles Theme: `jekyll-theme-minimal`
+
 Default template ersetzt durch eigene blog.html
 
 The Bees Knees!
