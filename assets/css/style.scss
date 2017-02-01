@@ -5,10 +5,9 @@
 
 .full-width-footer{
   width: 860px;
-  height: 3em;
   background-color: #fff;
-  padding: 1em;
-  border-top: 1px solid #eee;
+  padding-top: 2em;
+  border-top: 1px dotted #eee;
   bottom: 0;
 }
 .footer-nav{
@@ -16,4 +15,7 @@
 }
 .footer-nav > a{
   margin-right: 1rem;
+}
+.footer-nav > a:first-child{
+  margin-right: 0rem;
 }
