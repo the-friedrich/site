@@ -1,6 +1,8 @@
 ---
 layout: blog
 title: "Der Titel"
+category: Sticks
+description: Eine Post Tag-Line. Wenn nichts angegeben ist, wird die allgemeine Site-Description verwendet.
 ---
 
 ![Placeholder](https://placeimg.com/640/480/any)

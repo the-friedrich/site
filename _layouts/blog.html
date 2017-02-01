@@ -20,6 +20,7 @@
             <h1>{{ page.title | default: site.github.repository_name }}</h1>
             <p>{{ page.description | default: site.github.project_tagline }}</p>
 
+<<<<<<< HEAD
             {% if page.categories %}
             <div>
                 <p><strong>Kategorie:</strong><br />{{ page.categories }}</p>
@@ -27,6 +28,31 @@
             {% endif %}
 
             <div class="side-menu">
+=======
+        {% if page.categories %}
+         <div>
+           <p><strong>Kategorie:</strong><br />{{ page.categories }}</p>
+         </div>
+        {% endif %}
+        
+        <div class="side-menu">
+          
+          
+         {% for post in site.posts %}
+          <p>
+          <strong>Kategorie:</strong><br />  
+          <div class="index-entry">
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </div>          
+          </p>
+         {% endfor %}
+        
+         <div class="to-home">
+            <p><a href="{{ site.baseurl }}"><u>Home</u></a></p>
+         </div>
+        
+        </div>
+>>>>>>> origin/gh-pages
 
                 {% if site.posts %} {% for post in site.posts %}
                 <p>
