@@ -4,7 +4,12 @@
 @import "{{ site.theme }}";
 
 .full-width-footer{
-  width: 100%;
+  width: 860px;
+  height: 3em;
+  background-color: #fff;
+  padding: 1em;
+  box-shadow: black;
+  border-top: 1px solid #eee;
 }
 .footer-nav{
   margin: 0 auto;
