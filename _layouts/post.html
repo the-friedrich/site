@@ -18,10 +18,10 @@
 
     <nav>
       <p>
-      <a href="{{ site.baseurl }}">Home</a>&nbsp;/
+      <a href="{{ site.baseurl }}">Home</a>
 
       {% if page.categories != empty %}
-        :&nbsp;<strong>{{ page.categories }}</strong>
+        &nbsp;/&nbsp;<strong>{{ page.categories }}</strong>&nbsp;:
 
 
 
@@ -29,7 +29,7 @@
 
 
       {% else %}
-        :&nbsp;<em>Unkategorisiert</em>&nbsp;/
+        &nbsp;/&nbsp;<em>Unkategorisiert</em>&nbsp;:
       {% endif %}
 
       <strong>{{ page.title | default: site.github.repository_name }}</strong>&nbsp;:
