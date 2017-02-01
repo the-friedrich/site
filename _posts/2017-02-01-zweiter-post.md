@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Titel van de Vaal"
-category: that
+category: Bones
 ---
 
 ![Placeholder](https://placeimg.com/640/480/any)
