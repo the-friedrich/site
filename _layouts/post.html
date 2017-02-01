@@ -14,17 +14,14 @@
 </head>
 
 <body>
-  <nav><a href="{{ site.baseurl }}">Home /</a>    
-<strong>{{ page.title | default: site.github.repository_name }} : </strong>
-
-            {{ page.description | default: site.github.project_tagline }}
-
-            {% if page.categories != empty %}
-            <strong>Kategorie: </strong>{{ page.categories }}
+  <p>
+    <nav><a href="{{ site.baseurl }}">Home</a>&nbsp;/&nbsp;<strong>{{ page.title | default: site.github.repository_name }}</strong>&nbsp;:&nbsp;{{ page.description | default: site.github.project_tagline }}{% if page.categories != empty %}
+            <strong>&nbsp;:&nbsp;Kategorie:&nbsp;</strong>{{ page.categories }}
             {% else %}
-            <em>Unkategorisiert</em>
+            <em>&nbsp;:&nbsp;Unkategorisiert</em>
             {% endif %}
         </nav>
+  </p>
 
         <div>
             {{ content }}
