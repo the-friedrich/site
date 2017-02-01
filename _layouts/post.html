@@ -23,7 +23,7 @@
       {{ page.description | default: site.github.project_tagline }}
 
       {% if page.categories != empty %}
-        <strong>:&nbsp;Kategorie:&nbsp;</strong>{{ page.categories }}
+        :&nbsp;<strong>{{ page.categories }}</strong>
       {% else %}
         :&nbsp;<em>Unkategorisiert</em>
       {% endif %}
