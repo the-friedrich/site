@@ -37,10 +37,10 @@
         <footer class="full-width-footer">
           <nav class="footer-nav">
             {% if site.github.is_project_page %}
-                <strong>By </strong><a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+                By: <a href="{{ site.github.owner_url }}">Friedrich</a>
             {% endif %}
 
-              <strong>Posts: </strong>
+              Posts: 
               {% for post in site.posts %}
                 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
               {% endfor %}
