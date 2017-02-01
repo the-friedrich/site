@@ -21,15 +21,16 @@
       <a href="{{ site.baseurl }}">Home</a>
 
       {% if page.categories != empty %}
-        &nbsp;/&nbsp;<strong>{{ page.categories }}</strong>&nbsp;:
-
+        {% for category in page.categories %}
+        <strong>{{ page.categories }}</strong>
+        {% endfor %}
 
 
 
 
 
       {% else %}
-        &nbsp;/&nbsp;<em>Unkategorisiert</em>&nbsp;:
+        <em>Unkategorisiert</em>
       {% endif %}
 
       <strong>{{ page.title | default: site.github.repository_name }}</strong>&nbsp;:
