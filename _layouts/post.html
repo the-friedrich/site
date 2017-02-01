@@ -18,12 +18,12 @@
 
   <p>
     <nav>
-      <a href="{{ site.baseurl }}">Home</a>&nbsp;/&nbsp;
-      <strong>{{ page.title | default: site.github.repository_name }}</strong>&nbsp;:&nbsp;
+      <a href="{{ site.baseurl }}">Home</a>&nbsp;/
+      <strong>{{ page.title | default: site.github.repository_name }}</strong>&nbsp;:
       {{ page.description | default: site.github.project_tagline }}
 
       {% if page.categories != empty %}
-        <strong>&nbsp;:&nbsp;Kategorie:&nbsp;</strong>{{ page.categories }}
+        <strong>:&nbsp;Kategorie:&nbsp;</strong>{{ page.categories }}
       {% else %}
         :&nbsp;<em>Unkategorisiert</em>
       {% endif %}
