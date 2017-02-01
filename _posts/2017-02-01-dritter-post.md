@@ -3,7 +3,7 @@ layout: blog
 title: "Ein Titel"
 ---
 
-<div style="font-size:500px; font-color:purple; font-weight:900;">Bäm!</div>
+<div style="font-size:10rem; color:#eee; font-weight:900;">Bäm!</div>
 
 ![Placeholder](https://placeimg.com/640/480/any)
 *Caption*
