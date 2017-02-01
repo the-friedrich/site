@@ -21,3 +21,6 @@
 .footer-nav > a:last-child::after{
   content: ""
 }
+.footer-nav > a:first-child::after{
+  content: " /"
+}
