@@ -2,6 +2,7 @@
 layout: blog
 title: "Titel van de Vaal"
 category: Bones
+description: YOLO
 ---
 
 ![Placeholder](https://placeimg.com/640/480/any)
