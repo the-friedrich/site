@@ -4,5 +4,8 @@
 @import "{{ site.theme }}";
 
 .full-width-footer{
-  width:100%;
+  width: 100%;
+}
+.footer-nav > a::after{
+  content: "+";
 }
