@@ -18,10 +18,10 @@
         <p>{{ page.description | default: site.github.project_tagline }}</p>
         <div class="side-menu">
           {% for post in site.posts %}
-            <div class="post-index-entry">
+            <div class="index-entry">
               <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             </div>
-            <div class="post-index-entry">
+            <div class="index-entry">
               <a href="{{ site.baseurl }}">{{ page.title }}</a>
             </div>
           {% endfor %}
