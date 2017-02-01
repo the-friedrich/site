@@ -14,6 +14,4 @@ Sed eget accumsan sapien. Etiam at magna tincidunt, imperdiet est in, vestibulum
 
 ![Placeholder](https://placeimg.com/860/480/any)
 
-Duis nulla lectus, bibendum quis tortor at, pellentesque ornare arcu. In at massa quis metus fermentum auctor. Nulla sit amet erat ultrices, vulputate felis sed, dignissim velit. Sed tincidunt lectus nec viverra luctus. Vestibulum bibendum dignissim orci at laoreet. Nulla tempus leo neque, ac venenatis justo rhoncus eu. Maecenas mi turpis, mollis eget odio id, convallis consectetur urna. Nunc facilisis est sit amet dapibus congue. Morbi molestie urna vel porta posuere. Donec diam diam, aliquam ut mi vel, viverra eleifend quam. Etiam in fringilla purus.
-
 Proin dignissim vel tellus eu luctus. Quisque tincidunt felis enim. Praesent id semper nunc. Curabitur ipsum mauris, accumsan eu ornare in, fermentum id velit. Nulla venenatis enim sed pretium aliquet. Mauris eget tristique massa, eget convallis orci. Donec et augue quis leo cursus commodo. Nulla tortor augue, posuere eget bibendum ut, sodales eu augue. Ut volutpat, ante sit amet pretium sagittis, risus quam gravida dolor, sit amet vestibulum magna lectus sit amet ex.
