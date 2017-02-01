@@ -20,7 +20,7 @@
 
             <li>{{ page.description | default: site.github.project_tagline }}</li>
 
-            {% if page.categories %}
+            {% if page.categories != empty %}  
             <li><strong>Kategorie: </strong>{{ page.categories }}</li>
             {% endif %}
 
@@ -30,7 +30,7 @@
                   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                 {% endfor %}
             </li>
-            <li><a href="{{ site.baseurl }}"><u>Home</u></a></li>            
+            <li><a href="{{ site.baseurl }}"><u>Home</u></a></li>
         </ul>
 
         <div>
