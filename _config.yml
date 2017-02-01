@@ -1,6 +1,6 @@
 
 exclude: ['README.md']
-permalink: pretty
+
 
 title: GitHub Pages Playground
 description: Zum ausprobieren der GitHub Pages und Jekyll
