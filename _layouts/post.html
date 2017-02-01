@@ -15,8 +15,9 @@
 
 <body>
   <div class="wrapper">
-  <p>
+
     <nav>
+      <p>
       <a href="{{ site.baseurl }}">Home</a>&nbsp;/
       <strong>{{ page.title | default: site.github.repository_name }}</strong>&nbsp;:
       <span>{{ page.description | default: site.github.project_tagline }}</span>
@@ -26,8 +27,9 @@
       {% else %}
         :&nbsp;<em>Unkategorisiert</em>
       {% endif %}
-    </nav>
-  </p>
+    </p>
+  </nav>
+
 
   <div>
       {{ content }}
