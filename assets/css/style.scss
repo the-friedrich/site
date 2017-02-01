@@ -15,6 +15,7 @@
   margin: 0 auto;
 }
 
-.footer-nav > a:first-child{
-  margin-right: 0rem;
+.footer-nav > a::after{
+  content: " ."
+  color: black;
 }
