@@ -20,8 +20,10 @@
 
             <li>{{ page.description | default: site.github.project_tagline }}</li>
 
-            {% if page.categories != empty %}  
+            {% if page.categories != empty %}
             <li><strong>Kategorie: </strong>{{ page.categories }}</li>
+            {% elseif %}
+            <li><em>Unkategorisiert</em></li>
             {% endif %}
 
             <li>
