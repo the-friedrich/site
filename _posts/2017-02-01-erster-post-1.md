@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Erster Post Titel"
+title: "Der Titel"
 ---
 
 ![Placeholder](https://placeimg.com/640/480/any)
