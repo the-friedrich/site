@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Der Titel"
+category: this
 ---
 
 ![Placeholder](https://placeimg.com/640/480/any)
