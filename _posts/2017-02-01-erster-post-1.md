@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "Erster Post"
+layout: blog
+title: "Erster Post Titel"
 ---
 
 erster

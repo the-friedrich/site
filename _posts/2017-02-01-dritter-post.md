@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: blog
+title: "Eigener Titel"
 ---
 
 dritter
