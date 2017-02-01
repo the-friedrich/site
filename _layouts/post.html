@@ -19,7 +19,7 @@
     <nav>
       <a href="{{ site.baseurl }}">Home</a>&nbsp;/
       <strong>{{ page.title | default: site.github.repository_name }}</strong>&nbsp;:
-      {{ page.description | default: site.github.project_tagline }}
+      <span>{{ page.description | default: site.github.project_tagline }}</span>
 
       {% if page.categories != empty %}
         :&nbsp;<strong>{{ page.categories }}</strong>
