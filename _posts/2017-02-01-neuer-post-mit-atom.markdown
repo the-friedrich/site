@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Neuer Post mit Atom"
-date: "2017-02-01 21:09:06 +0100"
 description: Eigenes Post-Layout erster Versuch
 ---
 
