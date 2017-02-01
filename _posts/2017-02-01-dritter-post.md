@@ -2,6 +2,7 @@
 layout: blog
 title: "Ein Titel"
 category: Stones
+description: Ein Post über Dies und Das
 ---
 
 <div style="font-size:10rem; color:#eee; font-weight:900;">Bäm!</div>
