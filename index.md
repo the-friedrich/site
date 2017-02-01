@@ -2,11 +2,14 @@
 layout: blog
 title: Home
 description: Look ma', it's my blog!
+excerpt_separator: <!--more-->
 ---
 
 #My Kung-Fu is better than yours
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu rhoncus tellus, a bibendum arcu. Nulla sit amet odio turpis. Curabitur eget molestie diam, id eleifend mi. Nulla eget ultrices turpis. Cras non condimentum nisi. Integer nec luctus purus. Praesent non sapien id tortor rhoncus tincidunt ac quis purus. Fusce non auctor nunc, eu vehicula neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta quis nisl vel fringilla.
+
+<!--more-->
 
 Sed eget accumsan sapien. Etiam at magna tincidunt, imperdiet est in, vestibulum ex. Maecenas feugiat scelerisque luctus. Fusce rutrum, neque gravida congue faucibus, leo lacus facilisis sapien, et pretium mi lacus eu felis. Maecenas ultrices tellus sagittis, consectetur tortor eget, tempor diam. Etiam dictum at nisl at venenatis. Morbi sed tempus neque. Cras eget elit in eros fermentum laoreet. Maecenas nec ante nec nunc viverra porttitor vel eu orci. Aliquam erat volutpat. In eros tortor, mattis ac nisl non, venenatis blandit justo.
 
