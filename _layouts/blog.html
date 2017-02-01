@@ -16,13 +16,13 @@
       <header>
         <h1>{{ page.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+        <div class="side-menu">
+          {% for post in site.posts %}
+            <div class="post-index-entry">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+          {% endfor %}
+        </div>
       </header>
       <section>
 
@@ -39,6 +39,3 @@
 
   </body>
 </html>
-
-
-

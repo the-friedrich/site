@@ -4,6 +4,5 @@ exclude: ['README.md']
 title: GitHub Pages Playground
 description: Zum ausprobieren der GitHub Pages und Jekyll
 show_downloads: true
-theme: jekyll-theme-minimal
 
 theme: jekyll-theme-minimal
