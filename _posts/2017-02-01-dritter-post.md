@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Ein Titel"
-category: that
+category: Stones
 ---
 
 <div style="font-size:10rem; color:#eee; font-weight:900;">Bäm!</div>
