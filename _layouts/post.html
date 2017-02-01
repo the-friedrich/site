@@ -41,7 +41,11 @@
             {% endif %}
 
               {% for post in site.posts %}
-              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              {% if page.title == post.title %}
+                <a class="current" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              {% else %}
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              {% endif %}
               {% endfor %}
             </nav>
         </footer>
