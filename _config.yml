@@ -1,3 +1,5 @@
 mardown: redcarpet
 baseurl: /site
 exclude: ['README.md']
+
+theme: jekyll-theme-minimal
