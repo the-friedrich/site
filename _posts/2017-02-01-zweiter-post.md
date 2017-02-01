@@ -1,6 +1,9 @@
 ---
 layout: blog
-title: "Zweiter Post Titel"
+title: "Titel van de Vaal"
 ---
 
-Zweiter
+![Placeholder](https://placeimg.com/640/480/any)
+*Caption*
+
+<div style="size:100px">Bäm!</div>
