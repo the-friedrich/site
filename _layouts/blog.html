@@ -31,7 +31,7 @@
                 {% if site.categories != empty %}
                 <br />Kategorien
                 <span class="cat-list">
-                  {% for category in site.categories.[page.categories] %}
+                  {% for category in page.categories %}
                   <a class="cat-item" href="#">{{ category }}</a>
                   {% endfor %}
                 </span>
