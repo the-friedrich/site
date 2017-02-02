@@ -16,7 +16,8 @@
 }
 
 .footer-nav > a::after{
-  content: &middot;
+  content:   " \00B7";
+  color: #000;
 }
 .footer-nav > a:last-child::after{
   content: "";
@@ -32,7 +33,7 @@
   color: green;
 }
 .cat::after{
-  content: " \00B7";
+  content: ", ";
   color: #000;
 }
 .cat:last-child::after{
