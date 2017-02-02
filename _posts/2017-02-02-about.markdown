@@ -7,6 +7,6 @@ category: [About]
 ---
 # I'm Batman
 
-<p><span style="font-size: 10em; font-weight: 900;">Fightin' crime since 1995</span></p>
+<p><span style="font-size: 10em; font-weight: 900; line-height: 1.2em;">Fightin' crime since 1995</span></p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu rhoncus tellus, a bibendum arcu. Nulla sit amet odio turpis. Curabitur eget molestie diam, id eleifend mi. Nulla eget ultrices turpis. Cras non condimentum nisi. Integer nec luctus purus. Praesent non sapien id tortor rhoncus tincidunt ac quis purus. Fusce non auctor nunc, eu vehicula neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta quis nisl vel fringilla.
