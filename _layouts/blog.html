@@ -32,7 +32,7 @@
                 <br />Kategorien
                 <span class="cat-list">
                   {% for category in site.categories %}
-                  <a class="cat-item" href="#">{{ site.categories[forloop.index0] }}</a>
+                  <a class="cat-item" href="#">{{ site.categories.[page.category] }}</a>
                   {% endfor %}
                 </span>
                 {% endif %}
