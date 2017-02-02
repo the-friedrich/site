@@ -2,6 +2,7 @@
 layout: post
 title: "Neuer Post mit Atom"
 description: Eigenes Post-Layout erster Versuch
+category: [Playground]
 ---
 
 ![Placeholder](https://placeimg.com/860/480/any)
