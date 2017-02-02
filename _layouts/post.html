@@ -21,11 +21,11 @@
       <a href="{{ site.baseurl }}">Home</a>
 
       {% if page.categories != empty %}
-      [
+      <span class="cat-braket">[
         {% for category in page.categories %}
-        <span class="cat-braket"><strong>{{ page.category[forloop.index0] }}</strong></span>
+        <a class="cat" href="#">{{ page.category[forloop.index0] }}</a>
         {% endfor %}
-      ]
+      ]</span>
 
 
 
