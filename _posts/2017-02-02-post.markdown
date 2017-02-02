@@ -3,8 +3,9 @@ layout: post
 title: "Post"
 date: "2017-02-02 00:12:14 +0100"
 description: Tagline
-category: [Playground, Dev]
 ---
+
+<iframe src="https://player.vimeo.com/video/12492213?title=0&byline=0&portrait=0" width="860" height="645" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 # Title
 
