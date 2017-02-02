@@ -16,13 +16,13 @@
 }
 
 .footer-nav > a::after{
-  content: " ."
+  content: " .";
 }
 .footer-nav > a:last-child::after{
-  content: ""
+  content: "";
 }
 .footer-nav > a:first-child::after{
-  content: " /"
+  content: " /";
 }
 .current{
   color: black;
@@ -31,8 +31,8 @@
   color: green;
 }
 .cat::after{
-  content: ", "
+  content: ", ";
 }
 .cat:last-child::after{
-  content: ""
+  content: "";
 }
