@@ -43,12 +43,11 @@
 
 /*-two-col-layout-*/
 .two-col>p{
-  width: 50%;
-  float: left;
+  width: 47%;
 }
 .two-col>p:nth-child(odd){
-  margin-right: 1em;
+  float: left;
 }
 .two-col>p:nth-child(even){
-  margin-left: 1em;
+  float: right;
 }
