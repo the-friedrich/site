@@ -22,7 +22,7 @@
 
       {% if page.categories != empty %}
       [
-        {% for category in page.categories %}
+        {% for category in page.categories limit:1 %}
         <strong>{{ page.category }},&nbsp;</strong>
         {% endfor %}
       ]
