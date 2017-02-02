@@ -22,13 +22,23 @@
 
 
             <nav class="side-menu">
-              <strong>Posts:</strong>
+              <p><strong>Posts:</strong>
                 {% for post in site.posts %}
                     <div class="index-entry">
                         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                     </div>
                 {% endfor %}
-
+              </p>
+              <p>
+                <strong>Kategorien:</strong>
+                {% if site.categories != empty %}
+                <span class="cat-list">
+                  {% for category in site.categories %}
+                  <a class="cat-item" href="#">{{ site.category[forloop.index0] }}</a>
+                  {% endfor %}
+                </span>        
+                {% endif %}
+              </p>
             </nav>
         </header>
 

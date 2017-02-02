@@ -11,6 +11,20 @@
   border-top: 1px dotted #eee;
   bottom: 0;
 }
+
+.current{
+  color: black;
+}
+.cat{
+  color: #aaa;
+}
+.cat::after{
+  content: ", ";
+  color: #000;
+}
+.cat:last-child::after{
+  content: "";
+}
 .footer-nav{
   margin: 0 auto;
 }
@@ -25,17 +39,4 @@
 .footer-nav > a:first-child::after{
   content: " /";
     color: #000;
-}
-.current{
-  color: black;
-}
-.cat{
-  color: #aaa;
-}
-.cat::after{
-  content: ", ";
-  color: #000;
-}
-.cat:last-child::after{
-  content: "";
 }
