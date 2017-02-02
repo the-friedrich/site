@@ -27,10 +27,10 @@
 .current{
   color: black;
 }
-.cat-braket{
+.cat{
   color: green;
 }
-.::after{
+.cat::after{
   content: ", "
 }
 .cat:last-child::after{
