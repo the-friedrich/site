@@ -16,7 +16,7 @@
 }
 
 .footer-nav > a::after{
-  content: " .";
+  content: &middot;
 }
 .footer-nav > a:last-child::after{
   content: "";
