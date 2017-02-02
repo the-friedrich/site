@@ -23,6 +23,7 @@
 }
 .footer-nav > a:first-child::after{
   content: " /";
+    color: #000;
 }
 .current{
   color: black;
@@ -31,7 +32,8 @@
   color: green;
 }
 .cat::after{
-  content: ", ";
+  content: " \00B7";
+  color: #000;
 }
 .cat:last-child::after{
   content: "";
