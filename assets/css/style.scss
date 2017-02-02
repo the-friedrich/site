@@ -46,3 +46,9 @@
   width: 50%;
   float: left;
 }
+.two-col>p:nth-child(odd){
+  margin-right: 1em;
+}
+.two-col>p:nth-child(even){
+  margin-left: 1em;
+}
