@@ -23,7 +23,7 @@
       {% if page.categories != empty %}
       [
         {% for category in page.categories %}
-        <strong>{{ page.category[forloop.index0] }},&nbsp;</strong>
+        <span class="cat-braket"><strong>{{ page.category[forloop.index0] }}</strong></span>
         {% endfor %}
       ]
 
@@ -48,7 +48,7 @@
         <footer class="full-width-footer">
           <nav class="footer-nav">
             {% if site.github.is_project_page %}
-                <a href="{{ site.github.owner_url }}">Friedrich </a>
+                <a href="{{ site.github.owner_url }}">Friedrich</a>
             {% endif %}
 
               {% for post in site.posts %}
