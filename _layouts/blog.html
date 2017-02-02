@@ -22,13 +22,13 @@
 
 
             <nav class="side-menu">
-              Posts<br />
+              <br />
                 {% for post in site.posts %}
                     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br />
                 {% endfor %}
 
 
-                {% if site.categories != empty %}
+                {% if site.categories == empty %}
                 <br />Topics<br />
                 <span class="cat-list">
                   {% for category in site.categories %}
