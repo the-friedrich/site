@@ -5,6 +5,6 @@ date: "2017-02-02 02:30:59 +0100"
 description: About Me
 category: [About]
 ---
-<div style="margin-bottom: 10em; margin-bottom: 6em;"><span style="font-size: 8em; font-weight: 900; line-height: 1.15em;">I like kicking ass and chewing buble gum.</span></div>
+<div style="margin-top: 6em; margin-bottom: 6em;"><span style="font-size: 8em; font-weight: 900; line-height: 1.15em;">I like kicking ass and chewing buble gum.</span></div>
 
 # ... and it looks like i'm all out of buble gum.
