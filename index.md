@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: default
 title: Home
 description: Look ma', it's my blog!
 excerpt_separator: <!--more-->
