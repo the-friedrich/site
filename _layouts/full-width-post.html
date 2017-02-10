@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+
+    <nav>
+      <p>
+      <a href="{{ site.baseurl }}">Home</a>
+
+      {% if page.categories != empty %}
+      <span class="cat-braket">[
+        {% for category in page.categories %}
+        <a class="cat" href="#">{{ page.category[forloop.index0] }}</a>
+        {% endfor %}
+      ]</span>
+
+
+
+
+
+      {% else %}
+        [<em>Unkategorisiert</em>]
+      {% endif %}
+
+      <strong>{{ page.title | default: site.github.repository_name }}</strong>&nbsp;:
+      <span>{{ page.description | default: site.github.project_tagline }}</span>
+      (<span>{{ page.date | date: "%d. %b %Y" }}</span>)
+
+    </p>
+  </nav>
+
+  <div>
+      {{ content }}
+  </div>
+
+        <footer class="full-width-footer">
+          <nav class="footer-nav">
+            {% if site.github.is_project_page %}
+                <a href="{{ site.github.owner_url }}">Friedrich</a>
+            {% endif %}
+
+              {% for post in site.posts %}
+                {% if page.title == post.title %}
+                  <a class="current" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                {% else %}
+                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                {% endif %}
+              {% endfor %}
+            </nav>
+        </footer>
+    </div><!-- wrapper -->
+
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+</body>
+
+</html>
