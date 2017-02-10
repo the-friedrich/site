@@ -7,4 +7,4 @@ category: [About]
 ---
 <div style="margin-top: 6em; margin-bottom: 6em;"><span style="font-size: 8em; font-weight: 900; line-height: 1.15em;">I like kicking ass and chewing buble gum.</span></div>
 
-# ... and it looks like i'm all out of buble gum.
+# ... and it looks like i'm all out of bubble gum.
