@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab'); /* this import a google font to be used in this stylesheet */
+
+body{
+  font-family: sans-serif;
+  font-size: 20px;
+
+  width: 960px;
+  margin: 0 auto;
+
+  background-color: lightgray;
+}
+
+p{
+  line-height: 1.5em;
+}
+
+h1{
+  color: gray;
+  font-family: 'Roboto Slab', serif;
+}
+.content h1{
+  text-align: center;
+}
+
+img{
+  width: 100%;
+}
+
+hr{
+  margin-bottom: 4em;
+  margin-top: 2em;
+  opacity: 0.25;
+}
