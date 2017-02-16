@@ -29,8 +29,17 @@ hr{
   opacity: 0.25;
 }
 
+a{
+  text-decoration: none;
+}
+
 .content{
   text-align: center;
+  margin-bottom: 2em;
+}
+
+.content h1{
+  color: white;
 }
 
 .all-posts{
