@@ -4,4 +4,4 @@ layout: page
 
 # The Title
 
-*my page about space*
+my page about space
