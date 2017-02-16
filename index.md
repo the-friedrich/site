@@ -1,8 +1,9 @@
 ---
-layout: blog
+layout: default
 title: Home
 description: Look ma', it's my blog!
 excerpt_separator: <!--more-->
+img: ![Placeholder](https://placeimg.com/640/480/any)
 ---
 
 ![Placeholder](https://placeimg.com/640/480/any)
