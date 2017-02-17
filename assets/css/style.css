@@ -41,6 +41,14 @@ nav{
 .small-menu-link{
   font-size: 14px;
   margin-right: 1em;
+  font-weight: bold;
+  color: white;
+  transition: 0.3s;
+}
+
+.small-menu-link:hover{
+  color: tomato;
+  transition: 0.3s;
 }
 
 .content{
