@@ -12,9 +12,9 @@
   <body>
     
     <nav>
-      <a class="small-menu" href="http://maketheweb.tk/">Home</a>
+      <a class="small-menu-link" href="http://maketheweb.tk/">Home</a>
       {% for post in site.posts %}
-        <a class="small-menu" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a class="small-menu-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       {% endfor %}
     </nav>
 
