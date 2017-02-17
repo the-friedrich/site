@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: start
 ---
 
 # The Title
