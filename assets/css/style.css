@@ -33,6 +33,11 @@ a{
   text-decoration: none;
 }
 
+.small-menu{
+  font-size: 14px;
+  margin-right: 1em;
+}
+
 .content{
   text-align: center;
   margin-bottom: 2em;
