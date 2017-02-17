@@ -10,6 +10,13 @@
   </head>
 
   <body>
+    
+    <nav>
+      <a class="small-menu" href="{{ site.baseurl }}">Home</a>
+      {% for post in site.posts %}
+        <a class="small-menu" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {% endfor %}
+    </nav>
 
     <div class="post-content">
       {{ content }}
