@@ -33,11 +33,14 @@ a{
   text-decoration: none;
 }
 
-.small-menu{
-  font-size: 14px;
-  margin-right: 1em;
+.nav{
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.small-menu-link{
+  font-size: 14px;
+  margin-right: 1em;
 }
 
 .content{
