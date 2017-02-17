@@ -36,6 +36,8 @@ a{
 .small-menu{
   font-size: 14px;
   margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .content{
